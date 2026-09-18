@@ -1,0 +1,26 @@
+{
+  "n_rows": 21930,
+  "n_stores": 5,
+  "n_categories": 6,
+  "date_range": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "missing_values_before_cleaning": 182,
+  "missing_values_after_cleaning": 0,
+  "total_revenue": 14588201.0,
+  "avg_daily_revenue": 19956.499316005473,
+  "model_results": {
+    "Linear Regression": {
+      "MAE": 142.73,
+      "RMSE": 220.74,
+      "R2": 0.7658
+    },
+    "Random Forest": {
+      "MAE": 7.52,
+      "RMSE": 24.98,
+      "R2": 0.997
+    }
+  },
+  "best_model": "Random Forest"
+}
